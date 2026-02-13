@@ -23,10 +23,10 @@ export default defineConfig(({ mode }) => {
             cors: true,
             strictPort: false,
             proxy: {
-                "/api/codeup": {
-                    target: "https://openapi-rdc.aliyuncs.com",
+                "/api": {
+                    target: "",
                     changeOrigin: true,
-                    rewrite: (path) => path.replace(/^\/api\/codeup/, ""),
+                    rewrite: (path) => path.replace(/^\/api/, "")
                 },
             },
         },

@@ -3,7 +3,10 @@
 
 # Editor
 .idea
-.vscode
+.vscode/*
+
+!.vscode/settings.json
+!.vscode/extensions.json
 
 # Package manager cache
 .npm
@@ -27,8 +30,6 @@ yarn-debug.log*
 pnpm-debug.log*
 yarn-error.log*
 lerna-debug.log*
-
-.env
 
 # Nuxt dev/build outputs
 .output
