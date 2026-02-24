@@ -1,7 +1,7 @@
 <template>
     <div class="relative flex h-dvh w-full overflow-hidden">
-        <!-- <layout-sidebar class="shrink-0" /> -->
         <!-- 侧边栏 -->
+        <!-- <layout-sidebar class="shrink-0" /> -->
         <div class="flex flex-1 flex-col overflow-hidden">
             <!-- 导航栏 -->
             <layout-header class="shrink-0" @toggle-theme="themeToggle" />
